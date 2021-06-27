@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webnote:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>webnote</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="webnote-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webnote:war exploded" />
+    </root>
+  </artifact>
+</component>
